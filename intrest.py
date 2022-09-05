@@ -1,11 +1,10 @@
-#intrest=int(input('enter the principal,period,interest'))
-p=50000
-t=60
-r=5
+p=int(input('enter the principal'))
+t=int(input('enter the time priod'))
+r=int(input(' enter the interest'))
 
-print('The principal is', p)
-print('The time period is', t)
-print('The rate of interest is',r)
+#print('The principal is', p)
+#print('The time period is', t)
+#print('The rate of interest is',r)
      
 si = (p * t * r)/100
   
