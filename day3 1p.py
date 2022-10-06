@@ -1,23 +1,10 @@
-def simple_interest(p,t,r):
-    print('The principal is', p)
-    print('The time period is', t)
-    print('The rate of interest is',r(n))
-     
-    si = (p * t * r)/100
-     
-    print('The Simple Interest is', si(n))
-    return si
-def r(n):
-    
-        si=(p*t*0.10)/100
-        return si
-def r(y):
-    si=(p*t*0.12)/100
-    return si         
+Principle_amount=int(input("enter the principle amount:"))
+Time_period=int(input("enter number of years:"))
+r=str(input("Is customer senior citizen (y/n):"))
 
-p=int(input("enter the principal amount"))
-t=int(input("enter time priod"))
-r=str(input("is customer senior citizen(y/n):"))
-
-    
-
+if(r=='y'):
+    S1=Principle_amount*Time_period*12/100
+    print("intrest is:",S1)
+else:
+    S2=Principle_amount*Time_period*10/100
+    print("intrest is:",S2)
